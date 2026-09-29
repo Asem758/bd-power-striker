@@ -18,11 +18,11 @@
 
 ## 🚀 Powerful Project Description
 
-**BD Power Strikers Club (BDPSC)** is a full-featured, data-driven eFootball competitive club platform built to centralize the complete lifecycle of a competitive gaming organization—from public club presentation and player profiles to match operations, performance analytics, automated ratings, power rankings, tournaments, trophies, digital player cards, media publishing, authentication, and role-based administration.
+**BD Power Strikers Club (BDPSC)** is a full-featured, data-driven **eFootball competitive club management platform** built to bring an entire competitive organization into one structured digital system. It connects the public club experience with player intelligence, match operations, automated performance analytics, rankings, tournament management, trophies, digital player cards, media publishing, authentication, and permission-controlled administration.
 
-The platform is designed around a **single source of truth for competitive data**. Match performance feeds player statistics; statistics drive the rating engine; ratings influence rankings; and the resulting data is surfaced across player profiles, ranking tables, tournament views, awards, trophies, and digital cards.
+The core idea is simple: **competitive activity becomes structured data, and structured data becomes actionable club intelligence.** Match results and player performances feed aggregate statistics; the statistics feed the rating engine; ratings drive power rankings; and the resulting competitive record is reflected consistently across player profiles, rankings, tournaments, awards, trophies, seasons, and digital cards.
 
-BDPSC combines a modern **React + TypeScript** frontend with a **Vite + Express** application server, a file-backed operational data layer, and **Supabase database/authentication integration**. The result is a club-management system that can function as both a polished public-facing eFootball hub and a controlled internal operations platform.
+BDPSC combines a modern **React 19 + TypeScript + Tailwind CSS 4** frontend with **Vite + Express**, a deterministic file-backed operational store, and **Supabase database/authentication integration**. This gives the project both a polished esports-facing presentation layer and a structured operations layer for managing the club behind the scenes.
 
 ### Product Vision
 
@@ -417,9 +417,9 @@ bd-power-striker/
 
 ## 🖼️ Screenshots / Preview
 
-The following six visual references correspond to the screenshots supplied for this repository and are included as lightweight SVG preview assets so the README can render directly from GitHub without storing large binary captures.
+The following six **BDPSC UI reference screenshots supplied for this project** are represented in the repository under `docs/screenshots/`. They are optimized lightweight SVG preview assets so the GitHub README loads quickly while preserving the intended page structure, visual hierarchy, and feature references.
 
-> **Note:** These repository assets are lightweight reference previews based on the supplied screenshots. If you want the original full-resolution PNG captures committed instead, replace the six files in `docs/screenshots/` with the original images while keeping the same filenames.
+> **Reference asset policy:** the README uses repository-hosted image files rather than temporary chat attachments, so the previews remain available directly from GitHub.
 
 ### 01 — Homepage / Club Overview
 
