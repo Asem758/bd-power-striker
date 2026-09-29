@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="rrShieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4C1D95" />
+      <stop offset="50%" stop-color="#2E1065" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="rrGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+  </defs>
+
+  <path d="M 250,25 L 430,85 L 400,340 L 250,475 L 100,340 L 70,85 Z" fill="url(#rrShieldGrad)" stroke="url(#rrGoldGrad)" stroke-width="8" stroke-linejoin="round" />
+
+  <!-- Crown Motif -->
+  <g transform="translate(250, 190) scale(1.15)">
+    <!-- Crown spikes -->
+    <path d="M -60,20 L -80,-40 L -35,-10 L 0,-60 L 35,-10 L 80,-40 L 60,20 Z" fill="url(#rrGoldGrad)" stroke="#2E1065" stroke-width="3" />
+    <!-- Crown gems -->
+    <circle cx="-80" cy="-45" r="6" fill="#A855F7" />
+    <circle cx="0" cy="-65" r="8" fill="#F43F5E" />
+    <circle cx="80" cy="-45" r="6" fill="#A855F7" />
+    <circle cx="-35" cy="-12" r="5" fill="#38BDF8" />
+    <circle cx="35" cy="-12" r="5" fill="#38BDF8" />
+    <!-- Ball Under Crown -->
+    <circle cx="0" cy="50" r="26" fill="#FFFFFF" stroke="#2E1065" stroke-width="4" />
+    <polygon points="0,40 8,46 5,56 -5,56 -8,46" fill="#2E1065" />
+  </g>
+
+  <!-- Banner -->
+  <rect x="70" y="340" width="360" height="52" rx="10" fill="#2E1065" stroke="url(#rrGoldGrad)" stroke-width="3" />
+  <text x="250" y="373" font-family="'Impact', 'Arial Black', sans-serif" font-size="24" font-weight="900" fill="#FCD34D" text-anchor="middle" letter-spacing="2">
+    RAJSHAHI ROYALS
+  </text>
+  <text x="250" y="420" font-family="sans-serif" font-size="14" font-weight="800" fill="#C084FC" text-anchor="middle" letter-spacing="4">
+    BANGLADESH • ESPORTS
+  </text>
+</svg>

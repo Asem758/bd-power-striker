@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bwShieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A8A" />
+      <stop offset="50%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E1B4B" />
+    </linearGradient>
+    <linearGradient id="bwOrangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F97316" />
+      <stop offset="100%" stop-color="#EA580C" />
+    </linearGradient>
+    <linearGradient id="bwGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+  </defs>
+
+  <!-- Base Shield -->
+  <path d="M 250,30 L 430,90 L 400,340 L 250,470 L 100,340 L 70,90 Z" fill="url(#bwShieldGrad)" stroke="url(#bwGoldGrad)" stroke-width="8" stroke-linejoin="round" />
+  
+  <!-- Inner Border -->
+  <path d="M 250,55 L 405,108 L 380,320 L 250,438 L 120,320 L 95,108 Z" fill="none" stroke="url(#bwOrangeGrad)" stroke-width="4" stroke-linejoin="round" opacity="0.8" />
+
+  <!-- Diagonal Strike Lines -->
+  <path d="M 120,160 L 380,300 M 110,210 L 370,350" stroke="#F97316" stroke-width="3" opacity="0.3" />
+
+  <!-- Tiger Silhouette / Esports Claws -->
+  <g transform="translate(250, 210) scale(1.1)">
+    <!-- Claws / Stripes -->
+    <path d="M -80,-60 Q -50,-10 -60,40 Q -80,20 -90,-20 Z" fill="url(#bwOrangeGrad)" />
+    <path d="M -40,-80 Q -15,-20 -20,60 Q -40,30 -50,-40 Z" fill="#FFFFFF" />
+    <path d="M 0,-95 Q 10,-30 0,75 Q -20,20 -15,-60 Z" fill="url(#bwGoldGrad)" />
+    <path d="M 40,-80 Q 15,-20 20,60 Q 40,30 50,-40 Z" fill="#FFFFFF" />
+    <path d="M 80,-60 Q 50,-10 60,40 Q 80,20 90,-20 Z" fill="url(#bwOrangeGrad)" />
+
+    <!-- Center Soccer Ball -->
+    <circle cx="0" cy="50" r="28" fill="#FFFFFF" stroke="#0F172A" stroke-width="4" />
+    <polygon points="0,38 9,45 6,55 -6,55 -9,45" fill="#0F172A" />
+    <line x1="0" y1="38" x2="0" y2="24" stroke="#0F172A" stroke-width="3" />
+    <line x1="9" y1="45" x2="22" y2="40" stroke="#0F172A" stroke-width="3" />
+    <line x1="6" y1="55" x2="16" y2="68" stroke="#0F172A" stroke-width="3" />
+    <line x1="-6" y1="55" x2="-16" y2="68" stroke="#0F172A" stroke-width="3" />
+    <line x1="-9" y1="45" x2="-22" y2="40" stroke="#0F172A" stroke-width="3" />
+  </g>
+
+  <!-- Club Banner -->
+  <rect x="80" y="340" width="340" height="50" rx="8" fill="#0B132B" stroke="url(#bwGoldGrad)" stroke-width="3" />
+  <text x="250" y="372" font-family="'Impact', 'Arial Black', sans-serif" font-size="24" font-weight="900" fill="#F8FAFC" text-anchor="middle" letter-spacing="2">
+    BENGAL WARRIORS
+  </text>
+  <text x="250" y="415" font-family="sans-serif" font-size="14" font-weight="800" fill="#F59E0B" text-anchor="middle" letter-spacing="4">
+    INDIA • ESPORTS
+  </text>
+</svg>

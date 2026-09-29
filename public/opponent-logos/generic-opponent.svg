@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="genShieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="50%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="genBorderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#94A3B8" />
+      <stop offset="50%" stop-color="#64748B" />
+      <stop offset="100%" stop-color="#475569" />
+    </linearGradient>
+  </defs>
+
+  <!-- Esports Crest -->
+  <path d="M 250,30 L 420,80 L 390,330 L 250,470 L 110,330 L 80,80 Z" fill="url(#genShieldGrad)" stroke="url(#genBorderGrad)" stroke-width="8" stroke-linejoin="round" />
+  <path d="M 250,60 L 385,102 L 360,310 L 250,430 L 140,310 L 115,102 Z" fill="none" stroke="#64748B" stroke-width="3" opacity="0.5" />
+
+  <!-- Swords / Crossed Gamepads Graphic -->
+  <g transform="translate(250, 210) scale(1.1)">
+    <!-- Ball Center -->
+    <circle cx="0" cy="0" r="48" fill="#F8FAFC" stroke="#0F172A" stroke-width="5" />
+    <polygon points="0,-16 15,-5 9,13 -9,13 -15,-5" fill="#0F172A" />
+    <line x1="0" y1="-16" x2="0" y2="-45" stroke="#0F172A" stroke-width="4" />
+    <line x1="15" y1="-5" x2="43" y2="-15" stroke="#0F172A" stroke-width="4" />
+    <line x1="9" y1="13" x2="27" y2="38" stroke="#0F172A" stroke-width="4" />
+    <line x1="-9" y1="13" x2="-27" y2="38" stroke="#0F172A" stroke-width="4" />
+    <line x1="-15" y1="-5" x2="-43" y2="-15" stroke="#0F172A" stroke-width="4" />
+  </g>
+
+  <!-- Banner -->
+  <rect x="75" y="340" width="350" height="52" rx="10" fill="#0F172A" stroke="url(#genBorderGrad)" stroke-width="3" />
+  <text x="250" y="373" font-family="'Impact', 'Arial Black', sans-serif" font-size="24" font-weight="900" fill="#F8FAFC" text-anchor="middle" letter-spacing="2">
+    CLUB OPPONENT
+  </text>
+  <text x="250" y="420" font-family="sans-serif" font-size="14" font-weight="800" fill="#94A3B8" text-anchor="middle" letter-spacing="4">
+    OFFICIAL MATCH
+  </text>
+</svg>

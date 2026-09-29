@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BD Power Strikers Club - BDPSC eFootball Hub</title>
+    <meta name="description" content="Official competitive eFootball club platform for BD Power Strikers Club featuring player management, automated rating & ranking engine, match center, tournament brackets, digital player card generator, and club trophies." />
+    <meta property="og:title" content="BD Power Strikers Club - BDPSC eFootball Hub" />
+    <meta property="og:description" content="Official competitive eFootball club platform for BD Power Strikers Club featuring player management, automated rating & ranking engine, match center, tournament brackets, digital player card generator, and club trophies." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script>
+      // Gracefully prevent iframe websocket disconnection warnings in preview
+      window.addEventListener('unhandledrejection', function(event) {
+        if (event.reason && (
+          String(event.reason).includes('WebSocket') ||
+          String(event.reason?.message).includes('WebSocket')
+        )) {
+          event.preventDefault();
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

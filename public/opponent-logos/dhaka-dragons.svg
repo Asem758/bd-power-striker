@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ddShieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7F1D1D" />
+      <stop offset="50%" stop-color="#450A0A" />
+      <stop offset="100%" stop-color="#18181B" />
+    </linearGradient>
+    <linearGradient id="ddCrimsonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EF4444" />
+      <stop offset="100%" stop-color="#B91C1C" />
+    </linearGradient>
+    <linearGradient id="ddFireGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="100%" stop-color="#DC2626" />
+    </linearGradient>
+  </defs>
+
+  <!-- Pointed Gothic Shield -->
+  <path d="M 250,20 L 420,70 L 420,240 C 420,360 330,440 250,480 C 170,440 80,360 80,240 L 80,70 Z" fill="url(#ddShieldGrad)" stroke="url(#ddCrimsonGrad)" stroke-width="8" />
+
+  <!-- Dragon Head Motif -->
+  <g transform="translate(250, 190) scale(1.15)">
+    <!-- Dragon Horns & Scales -->
+    <path d="M -40,-80 L -10,-40 L -60,-20 L -30,0 L -80,20 L -20,30 L 0,80 L 20,30 L 80,20 L 30,0 L 60,-20 L 10,-40 L 40,-80 L 0,-50 Z" fill="url(#ddFireGrad)" />
+    <!-- Dragon Face Inner -->
+    <path d="M -25,-35 L 0,-15 L 25,-35 L 15,20 L 0,45 L -15,20 Z" fill="#18181B" />
+    <!-- Glowing Red Eyes -->
+    <polygon points="-12,-10 -6,-15 -4,-5" fill="#EF4444" />
+    <polygon points="12,-10 6,-15 4,-5" fill="#EF4444" />
+    <!-- Ball in Dragon Claws -->
+    <circle cx="0" cy="55" r="24" fill="#FFFFFF" stroke="#18181B" stroke-width="3" />
+    <polygon points="0,46 7,52 4,60 -4,60 -7,52" fill="#DC2626" />
+  </g>
+
+  <!-- Banner -->
+  <rect x="70" y="340" width="360" height="52" rx="10" fill="#18181B" stroke="url(#ddCrimsonGrad)" stroke-width="3" />
+  <text x="250" y="373" font-family="'Impact', 'Arial Black', sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">
+    DHAKA DRAGONS
+  </text>
+  <text x="250" y="420" font-family="sans-serif" font-size="14" font-weight="800" fill="#EF4444" text-anchor="middle" letter-spacing="4">
+    BANGLADESH • ESPORTS
+  </text>
+</svg>

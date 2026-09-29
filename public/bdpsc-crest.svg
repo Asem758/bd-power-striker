@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Top Arc Path for BD POWER STRIKERS (Radius ~182) -->
+    <path id="topTextArc" d="M 68,250 A 182,182 0 0,1 432,250" fill="none" />
+    <!-- Bottom Arc Path for FOOTBALL CLUB (Radius ~182, reversed so text reads normally left to right) -->
+    <path id="bottomTextArc" d="M 432,250 A 182,182 0 0,1 68,250" fill="none" />
+
+    <!-- Gold Gradients for Metallic Crest Look -->
+    <linearGradient id="goldRingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5C158" />
+      <stop offset="45%" stop-color="#B8860B" />
+      <stop offset="70%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#996515" />
+    </linearGradient>
+
+    <linearGradient id="goldStarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3E08A" />
+      <stop offset="100%" stop-color="#C5922F" />
+    </linearGradient>
+
+    <!-- Soccer Ball Symbol Definition -->
+    <g id="soccerBall">
+      <circle cx="0" cy="0" r="18" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" />
+      <!-- Central black pentagon -->
+      <polygon points="0,-6.5 6.2,-2 3.8,5.5 -3.8,5.5 -6.2,-2" fill="#000000" />
+      <!-- Radial seam lines to edge -->
+      <line x1="0" y1="-6.5" x2="0" y2="-17.5" stroke="#000000" stroke-width="2" />
+      <line x1="6.2" y1="-2" x2="16.5" y2="-5.5" stroke="#000000" stroke-width="2" />
+      <line x1="3.8" y1="5.5" x2="10.5" y2="14.5" stroke="#000000" stroke-width="2" />
+      <line x1="-3.8" y1="5.5" x2="-10.5" y2="14.5" stroke="#000000" stroke-width="2" />
+      <line x1="-6.2" y1="-2" x2="-16.5" y2="-5.5" stroke="#000000" stroke-width="2" />
+      <!-- Outer edge mini patches -->
+      <polygon points="-5,-17.5 0,-17.5 5,-17.5 3,-14 -3,-14" fill="#000000" />
+      <polygon points="14,-9 16.5,-5.5 17.5,-1 14,-2" fill="#000000" />
+      <polygon points="16,3 10.5,14.5 7,16.5 9,11" fill="#000000" />
+      <polygon points="-7,16.5 -10.5,14.5 -16,3 -9,11" fill="#000000" />
+      <polygon points="-14,-2 -17.5,-1 -16.5,-5.5 -14,-9" fill="#000000" />
+    </g>
+  </defs>
+
+  <!-- Base Circle Background & Outer Golden Border -->
+  <circle cx="250" cy="250" r="244" fill="#FFFFFF" stroke="url(#goldRingGrad)" stroke-width="12" />
+  
+  <!-- Outer Thin Black Accent Line -->
+  <circle cx="250" cy="250" r="236" fill="none" stroke="#111111" stroke-width="2.5" />
+
+  <!-- Inner Black Center Disc with Gold Border -->
+  <circle cx="250" cy="250" r="142" fill="#0C0D10" stroke="url(#goldRingGrad)" stroke-width="6.5" />
+  <circle cx="250" cy="250" r="137" fill="none" stroke="#FFFFFF" stroke-width="1.2" opacity="0.35" />
+
+  <!-- Upper Curved Text: BD POWER STRIKERS -->
+  <text font-family="Montserrat, Impact, 'Arial Black', -apple-system, sans-serif" font-weight="900" font-size="28.5" fill="#111111" letter-spacing="4.5">
+    <textPath href="#topTextArc" startOffset="50%" text-anchor="middle">
+      BD POWER STRIKERS
+    </textPath>
+  </text>
+
+  <!-- Lower Curved Text: FOOTBALL CLUB -->
+  <text font-family="Montserrat, Impact, 'Arial Black', -apple-system, sans-serif" font-weight="900" font-size="27" fill="#111111" letter-spacing="4">
+    <textPath href="#bottomTextArc" startOffset="50%" text-anchor="middle">
+      FOOTBALL CLUB
+    </textPath>
+  </text>
+
+  <!-- Left Soccer Ball Icon -->
+  <use href="#soccerBall" x="98" y="250" />
+
+  <!-- Right Soccer Ball Icon -->
+  <use href="#soccerBall" x="402" y="250" />
+
+  <!-- Gold Star At Top of Inner Circle -->
+  <polygon points="250,146 254.5,159 268,159 257,167 261,180 250,172 239,180 243,167 232,159 245.5,159" fill="url(#goldStarGrad)" stroke="#A0721E" stroke-width="0.8" />
+
+  <!-- Phoenix Wings & Body (White Emblem) -->
+  <g fill="#FFFFFF" stroke="#0C0D10" stroke-width="0.6">
+    <!-- Phoenix Head and Crown -->
+    <!-- Head beak facing left, elegant sharp profile -->
+    <path d="M 250,186 C 248,186 244,188 241,192 C 237,194 235,196 232,197 C 236,198 240,199 242,201 C 243,205 245,212 247,218 C 249,219 251,219 253,218 C 255,212 257,205 258,201 C 260,199 264,198 268,197 C 265,196 263,194 259,192 C 256,188 252,186 250,186 Z" />
+    
+    <!-- Phoenix Central Chest & Torso -->
+    <path d="M 247,218 C 244,226 243,238 245,250 C 247,258 249,265 250,272 C 251,265 253,258 255,250 C 257,238 256,226 253,218 Z" />
+
+    <!-- Left Wing Feathers (Arching upwards and outwards) -->
+    <!-- Feather 1 (Topmost Outer Tip) -->
+    <path d="M 247,215 C 240,200 220,170 190,154 C 196,168 208,188 222,206 C 228,214 238,222 245,225 Z" />
+    <!-- Feather 2 -->
+    <path d="M 245,220 C 235,206 205,178 174,170 C 182,185 198,206 215,222 C 223,229 235,236 243,238 Z" />
+    <!-- Feather 3 -->
+    <path d="M 243,228 C 230,216 195,192 168,190 C 176,205 194,224 212,238 C 222,245 233,249 242,250 Z" />
+    <!-- Feather 4 -->
+    <path d="M 242,236 C 228,226 192,208 166,212 C 176,225 195,241 214,251 C 224,256 234,258 243,258 Z" />
+    <!-- Feather 5 -->
+    <path d="M 243,246 C 229,239 198,228 172,236 C 184,248 204,259 222,265 C 231,268 238,268 244,266 Z" />
+    <!-- Feather 6 (Lower inner sweep) -->
+    <path d="M 244,256 C 232,252 208,248 185,258 C 198,268 217,274 234,275 C 240,275 244,273 246,270 Z" />
+
+    <!-- Right Wing Feathers (Symmetrical counterpart) -->
+    <!-- Feather 1 (Topmost Outer Tip) -->
+    <path d="M 253,215 C 260,200 280,170 310,154 C 304,168 292,188 278,206 C 272,214 262,222 255,225 Z" />
+    <!-- Feather 2 -->
+    <path d="M 255,220 C 265,206 295,178 326,170 C 318,185 302,206 285,222 C 277,229 265,236 257,238 Z" />
+    <!-- Feather 3 -->
+    <path d="M 257,228 C 270,216 305,192 332,190 C 324,205 306,224 288,238 C 278,245 267,249 258,250 Z" />
+    <!-- Feather 4 -->
+    <path d="M 258,236 C 272,226 308,208 334,212 C 324,225 305,241 286,251 C 276,256 266,258 257,258 Z" />
+    <!-- Feather 5 -->
+    <path d="M 257,246 C 271,239 302,228 328,236 C 316,248 296,259 278,265 C 269,268 262,268 256,266 Z" />
+    <!-- Feather 6 (Lower inner sweep) -->
+    <path d="M 256,256 C 268,252 292,248 315,258 C 302,268 283,274 266,275 C 260,275 256,273 254,270 Z" />
+
+    <!-- Phoenix Tail Feathers (Curving down majestically) -->
+    <!-- Center Main Plume -->
+    <path d="M 248,272 C 246,285 244,305 250,332 C 256,305 254,285 252,272 Z" />
+    <!-- Left Inner Plume -->
+    <path d="M 246,272 C 240,285 233,302 238,322 C 243,308 246,295 248,280 Z" />
+    <!-- Right Inner Plume -->
+    <path d="M 254,272 C 260,285 267,302 262,322 C 257,308 254,295 252,280 Z" />
+    <!-- Left Outer Plume (curling inward) -->
+    <path d="M 244,275 C 230,290 216,306 225,326 C 230,314 238,300 242,285 Z" />
+    <!-- Right Outer Plume (curling inward) -->
+    <path d="M 256,275 C 270,290 284,306 275,326 C 270,314 262,300 258,285 Z" />
+    <!-- Left Lowest Flair -->
+    <path d="M 235,310 C 226,322 220,334 232,342 C 236,334 238,324 239,315 Z" />
+    <!-- Right Lowest Flair -->
+    <path d="M 265,310 C 274,322 280,334 268,342 C 264,334 262,324 261,315 Z" />
+  </g>
+
+  <!-- Founding Year: 20 on the Left, 25 on the Right -->
+  <text x="186" y="280" font-family="Montserrat, Impact, 'Arial Black', sans-serif" font-weight="900" font-size="23" fill="#FFFFFF" text-anchor="middle" letter-spacing="3">
+    20
+  </text>
+  <text x="314" y="280" font-family="Montserrat, Impact, 'Arial Black', sans-serif" font-weight="900" font-size="23" fill="#FFFFFF" text-anchor="middle" letter-spacing="3">
+    25
+  </text>
+</svg>

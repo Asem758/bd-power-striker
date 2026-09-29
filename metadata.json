@@ -1,0 +1,7 @@
+{
+  "name": "BD Power Strikers Club - BDPSC eFootball Hub",
+  "description": "Official competitive eFootball club platform for BD Power Strikers Club featuring player management, automated rating & ranking engine, match center, tournament brackets, digital player card generator, and club trophies.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
