@@ -430,33 +430,48 @@ The following six **BDPSC UI reference screenshots supplied for this project** a
 
 ### 02 — Official Squad / Player Management
 
-![BDPSC Players Preview](docs/screenshots/02-players.svg)
+<img width="1920" height="2135" alt="fullpage_snapshot_bd-power-strikers_ai_studio_2026-09-29-16-38-56" src="https://github.com/user-attachments/assets/d0a200b6-c314-4126-afbe-6ca0ca40d290" />
+
+
 
 **Highlights:** player cards, OVR, positions, status, competitive statistics, search/filter experience, profile access, and digital-card access.
 
-### 03 — Official Power Rankings
+### 03 — News & Media
 
-![BDPSC Rankings Preview](docs/screenshots/03-rankings.svg)
+<img width="1920" height="1538" alt="fullpage_snapshot_bd-power-strikers_ai_studio_2026-09-29-16-39-57" src="https://github.com/user-attachments/assets/20c8dbe5-cc04-4295-a668-c553cfbcb711" />
+<img width="1920" height="1538" alt="fullpage_snapshot_bd-power-strikers_ai_studio_2026-09-29-16-40-30" src="https://github.com/user-attachments/assets/52d91533-5dc3-41d9-979d-a6c87025ebcd" />
 
-**Highlights:** ranking modes, competitive metrics, form, win percentage, goals, assists, MOTM, and overall rating.
+
+
+**Highlights:** press releases, official club dispatches, match reports, media coverage, announcements, and news archive.
 
 ### 04 — Match Center & Fixtures
 
-![BDPSC Matches Preview](docs/screenshots/04-matches.svg)
+<img width="1920" height="1708" alt="fullpage_snapshot_bd-power-strikers_ai_studio_2026-09-29-16-39-17" src="https://github.com/user-attachments/assets/39ed68e2-fdf1-44fc-b791-fe55542c9409" />
+
 
 **Highlights:** completed results, upcoming fixtures, tournament filters, scores, MVP, match reports, and performance statistics.
 
 ### 05 — Trophy Cabinet & Club Honors
 
-![BDPSC Trophies Preview](docs/screenshots/05-trophies.svg)
+<img width="1920" height="1575" alt="fullpage_snapshot_bd-power-strikers_ai_studio_2026-09-29-16-40-13" src="https://github.com/user-attachments/assets/c6d3160c-ed46-485f-83eb-eca570d246a6" />
+
 
 **Highlights:** championship trophies, individual honors, club milestones, tournament history, MVP recognition, and top-scorer achievements.
 
 ### 06 — Tournament Center & Brackets
 
-![BDPSC Tournament Preview](docs/screenshots/06-tournaments.svg)
+<img width="1920" height="2095" alt="fullpage_snapshot_bd-power-strikers_ai_studio_2026-09-29-16-39-32" src="https://github.com/user-attachments/assets/c2d0eba0-f263-42eb-990b-5b1c571e5900" />
+
 
 **Highlights:** tournament metadata, participants, MVP, top scorer, knockout progression, final, and champion presentation.
+
+### 07 - Player Power Ranking
+
+<img width="1920" height="1808" alt="fullpage_snapshot_bd-power-strikers_ai_studio_2026-09-29-16-39-45" src="https://github.com/user-attachments/assets/061556a6-9a45-4167-84d1-a07364dbea1a" />
+
+
+**Highlights:** ranking modes, competitive metrics, form, win percentage, goals, assists, MOTM, and overall rating.
 
 ---
 
