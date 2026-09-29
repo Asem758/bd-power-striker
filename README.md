@@ -16,7 +16,7 @@
 
 ---
 
-## 🚀 Powerful Project Description
+## 🚀 Project Description
 
 **BD Power Strikers Club (BDPSC)** is a full-featured, data-driven **eFootball competitive club management platform** built to bring an entire competitive organization into one structured digital system. It connects the public club experience with player intelligence, match operations, automated performance analytics, rankings, tournament management, trophies, digital player cards, media publishing, authentication, and permission-controlled administration.
 
@@ -423,7 +423,8 @@ The following six **BDPSC UI reference screenshots supplied for this project** a
 
 ### 01 — Homepage / Club Overview
 
-![BDPSC Homepage Preview](docs/screenshots/01-home.svg)
+![BDPSC Homepage Preview](https://github.com/user-attachments/assets/<img width="1920" height="4019" alt="fullpage_snapshot_bd-power-strikers_ai_studio_2026-09-29-16-38-22" src="https://github.com/user-attachments/assets/cc791100-f33e-450e-986d-d47eaa3cbc12" />
+)
 
 **Highlights:** club identity, season performance, latest result, upcoming clash, squad leaders, player recognition, dispatches, and trophy presentation.
 
