@@ -423,7 +423,7 @@ The following six **BDPSC UI reference screenshots supplied for this project** a
 
 ### 01 — Homepage / Club Overview
 
-![BDPSC Homepage Preview](https://github.com/user-attachments/assets/<img width="1920" height="4019" alt="fullpage_snapshot_bd-power-strikers_ai_studio_2026-09-29-16-38-22" src="https://github.com/user-attachments/assets/cc791100-f33e-450e-986d-d47eaa3cbc12" />
+<img width="1920" height="4019" alt="fullpage_snapshot_bd-power-strikers_ai_studio_2026-09-29-16-38-22" src="https://github.com/user-attachments/assets/cc791100-f33e-450e-986d-d47eaa3cbc12" />
 )
 
 **Highlights:** club identity, season performance, latest result, upcoming clash, squad leaders, player recognition, dispatches, and trophy presentation.
